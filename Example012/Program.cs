@@ -61,5 +61,14 @@ string result = String.Empty;
     return result;
 }
 string res1 = Method5(10, "word ");
-Console.WriteLine(res1);
+//Console.WriteLine(res1);
 
+// цикл внутри цикла Таблица умножения
+for (int i = 2; i <= 10; i++)
+{
+    for (int j = 0; j < 10; j++)
+    {
+        Console.WriteLine($"{i} x {j} = {i*j}");  //$ - интерполяция строк
+    }
+     Console.WriteLine(); // искуственный разрыв
+}
