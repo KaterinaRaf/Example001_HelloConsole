@@ -46,4 +46,20 @@ while (i < count)
 return result;
 }
 string res = Method4(10, "word ");
-Console.WriteLine(res);
+//Console.WriteLine(res);
+
+        //цикл for собирает в себе все данные и условия
+
+string Method5(int count, string text)
+{
+
+string result = String.Empty;
+    for (int i = 0; i < count; i++)
+    {
+    result = result + text;
+     }
+    return result;
+}
+string res1 = Method5(10, "word ");
+Console.WriteLine(res1);
+
